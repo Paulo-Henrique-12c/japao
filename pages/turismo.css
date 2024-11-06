@@ -1,0 +1,120 @@
+@import url(../css/header.css);
+@import url(../css/global.css);
+
+.title{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 7.2rem;
+}
+
+.turismo{
+    color: var(--rosa-claro);
+}
+
+span{
+    color: var(--rosa-claro);
+}
+
+h2{
+    text-align: center;
+    color: var(--rosa-claro);
+    font-size: 5.4rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+.content{
+    font-size: 32px;
+    margin-top: 7rem;
+}
+
+.content img{
+    width: 50rem;
+}
+
+.fuji{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 7rem;
+
+}
+
+.templo{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 7rem;
+    
+}
+
+.osaka{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 7rem;
+    
+}
+
+.falesias{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 7rem;
+    
+}
+
+.himeji{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 7rem;
+    
+}
+
+.fim p{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    padding: 50px;
+}
+
+.quadro{
+    background-color: var(--rosa-claro);
+    border-radius: 2rem;
+    width: 55rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 1s;
+}
+
+.quadro img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.quadro p{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+
+}
+
+.fim{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.quadro:hover{
+    width: 25%;
+}
